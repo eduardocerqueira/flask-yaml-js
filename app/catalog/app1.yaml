@@ -1,0 +1,43 @@
+name: application 1
+repo:
+  - back-end: https://github.com/eduardocerqueira/app1-backend
+  - front-end: https://github.com/eduardocerqueira/app1-frontend
+  - test back-end: https://github.com/eduardocerqueira/app1-test-backend
+  - test front-end: https://github.com/eduardocerqueira/app1-test-frontend
+  - test performance: https://github.com/eduardocerqueira/app1-test-performance
+jira:
+  url: https://issues.dev.com/app1
+  project: app1
+  labels:
+    - app1-backend
+    - app2-fronted
+bugzilla:
+  url: https://bugz.dev.com/app1
+  components:
+    - app1-backend
+    - app1-frontend
+team:
+  - joe:
+      email: joe@app1.com
+      role: dev leader
+  - flavia:
+      email: flavia@app1.com
+      role: dev
+  - lucas:
+      email: lucas@app1.com
+      role: qe leader
+  - patricia:
+      email: patricia@app1.com
+      role: product manager
+  - robert:
+      email: robert@app1.com
+      role: documentation
+  - felix:
+      email: felix@app1.com
+      role: devops and security
+  - kim:
+      email: kim@app1.com
+      role: dev manager
+  - tim:
+      email: tim@app1.com
+      role: qe manager

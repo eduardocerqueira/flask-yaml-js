@@ -1,0 +1,43 @@
+name: application 2
+repo:
+  - back-end: https://github.com/eduardocerqueira/app2-backend
+  - front-end: https://github.com/eduardocerqueira/app2-frontend
+  - test back-end: https://github.com/eduardocerqueira/app2-test-backend
+  - test front-end: https://github.com/eduardocerqueira/app2-test-frontend
+  - test performance: https://github.com/eduardocerqueira/app2-test-performance
+jira:
+  url: https://issues.dev.com/app2
+  project: app2
+  labels:
+    - app2-backend
+    - app2-fronted
+bugzilla:
+  url: https://bugz.dev.com/app2
+  components:
+    - app2-backend
+    - app2-frontend
+team:
+  - gil:
+      email: gil@app2.com
+      role: dev leader
+  - parker:
+      email: parker@app2.com
+      role: dev
+  - bob:
+      email: bob@app2.com
+      role: qe leader
+  - luiza:
+      email: luiza@app2.com
+      role: product manager
+  - maria:
+      email: maria@app2.com
+      role: documentation
+  - vanessa:
+      email: vanessa@app2.com
+      role: devops and security
+  - richard:
+      email: richard@app2.com
+      role: dev manager
+  - paul:
+      email: paul@app2.com
+      role: qe manager

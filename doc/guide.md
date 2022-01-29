@@ -12,3 +12,13 @@ ensure to set the following env variables:
 
 script path to flask app from your python venv.
 
+## run tests
+
+pre-requisite:
+* python virtual env
+* application requirements installed
+
+```shell
+cd app/test
+pytest -srvx application_catalog.py
+```

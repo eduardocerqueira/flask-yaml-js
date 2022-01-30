@@ -22,3 +22,9 @@ pre-requisite:
 cd app/test
 pytest -srvx application_catalog.py
 ```
+
+## pre-commit
+
+```shell
+pre-commit run --all
+```

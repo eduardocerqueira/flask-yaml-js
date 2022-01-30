@@ -8,7 +8,7 @@ def override_catalog_path(flask_app_path):
 
 
 def load_app_catalog(catalog_path):
-    """ get applications from catalog index """
+    """get applications from catalog index"""
     catalog_index = join(catalog_path, "index.yaml")
     with open(catalog_index, "r") as index_app:
         applications = yaml.safe_load(index_app)
@@ -16,7 +16,7 @@ def load_app_catalog(catalog_path):
 
 
 def load_app_descriptor(catalog_path, app_path):
-    """ get application descriptor """
+    """get application descriptor"""
     with open(join(catalog_path, app_path), "r") as app_record:
         app_descriptor = yaml.safe_load(app_record)
     return app_descriptor

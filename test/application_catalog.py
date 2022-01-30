@@ -11,7 +11,7 @@ CATALOOG_PATH = "../catalog"
 
 
 def test_load_app_index():
-    """ load application catalog index, loading level 1 """
+    """load application catalog index, loading level 1"""
     applications = load_app_catalog(catalog_path=CATALOOG_PATH)
     for app in applications["index"]:
         print(f"NAME: {app['name']} PATH: {app['path']}")
@@ -20,7 +20,7 @@ def test_load_app_index():
 
 
 def test_load_application_descriptor():
-    """ load application's descriptor, loading level 2 """
+    """load application's descriptor, loading level 2"""
     applications = load_app_catalog(catalog_path=CATALOOG_PATH)
 
     for app in applications["index"]:
